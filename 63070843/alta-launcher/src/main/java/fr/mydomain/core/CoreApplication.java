@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = "fr.mydomain.user")
-@MapperScan("fr.mydomain.user")
+@MapperScan("fr.mydomain.user.mapper")
 public class CoreApplication {
 
 	public static void main(String[] args) {
